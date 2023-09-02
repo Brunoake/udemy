@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#box{
+   outline: 10px solid rebeccapurple;
+    background-color: black;
+   
+}
+.box-model1{
+    background-color: blue;
+  
+    width: 90vh;
+    height: 30vw;
+    margin: 24px;
+    padding: 12px 14px ;
+    border-radius: 292px;
+    outline: 29px solid red;
+}
+

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*centralizando imagem*/
+.bg-img{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-left: -10px;
+}
+.not-centered-bg,
+.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(../eximage/image/pexels-yurii-hlei-1545743.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
