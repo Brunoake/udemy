@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="texto" >nome</label>
+            <input type="text" id="texto">
+        </div>
+        <div>
+            <label for="">idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <div>
+            <label for="job"> Selecione sua profissão</label>
+            <select name="job" id="">
+            <option value="programador">programador</option>
+            <option value="professor">professor</option><option value="contador">contador</option><option value="cientista">cientista</option><option value="juiz">juiz</option><option value="advogado">advogado</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="contract">VOCE leu os termos de contrato?</label>
+            <select name="contract" id="">
+                <option value="sim">Sim</option>
+                <option value="não" selected> não</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="items">Selecione os itens desejado</label>
+            <select name="items" id="" multiple>
+                <option value="pera">pera</option>
+                <option value="maçã">maçã</option>
+                <option value="uva">uva</option>
+                <option value="morango">morango</option>
+                <option value="abacate">abacate</option>
+                <option value="kiwi">kiwi</option>
+            </select>
+        </div>
+
+        <input type="submit" value="enviar">
+        
+    </form>
+</body>
+</html>
