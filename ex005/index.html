@@ -44,6 +44,32 @@
                 <option value="kiwi">kiwi</option>
             </select>
         </div>
+        <div>
+            <label for="coment">Comentario</label>
+            <textarea name="coment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>preencha as suas informações</legend>
+                <label for="firstname">nome:</label>
+                <input type="text " name="firstname">
+
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="flavor">Escolha seu sabor</label>
+            <input type="text "  list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="morango">morango</option>
+                <option value="chocolate">chocolate</option>
+                <option value="uva">uva</option>
+            </datalist>
+        </div>
 
         <input type="submit" value="enviar">
         
