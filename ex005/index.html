@@ -71,6 +71,57 @@
             </datalist>
         </div>
 
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+            <label for="car">Escolha seu carro</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car">
+                <label for="bmw">BMW</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="audi" name="car">
+                <label for="audi">AUDI</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="porsche" name="car">
+                <label for="porsche">PORSCHE</label>
+            </div><div class="radio">
+                <input type="radio" value="nissan" name="car">
+                <label for="nissan">NISSAN</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="opcional">Opicionais</label>
+            <div class="radio">
+                <input type="checkbox" name="opcional[]" value="cor_red">
+                <label for="cor_red">Cor vermelha</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="opcional[]" value="big_tires">
+                <label for="big_tires">PNEUS GRANDES</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="opcional[]" value="coupe">
+                <label for="coupe">coupe</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="opcional[]" value="freio">
+                <label for="freio">freio</label>
+            </div>
+
+
+        </div>
+
+        <div>
+            <label for="data">Data </label>
+            <input type="date">
+        </div>
+        <input type="reset" value="resetar">
         <input type="submit" value="enviar">
         
     </form>
