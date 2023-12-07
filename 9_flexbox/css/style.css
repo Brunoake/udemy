@@ -104,3 +104,19 @@
 .gap .box{
     width: 30%;
 }
+/* order */
+.order{
+    display: flex;
+}
+
+#one{
+    order: 1;
+}
+
+#two{
+    order: 2;
+}
+
+#three{
+    order: 3;
+}
