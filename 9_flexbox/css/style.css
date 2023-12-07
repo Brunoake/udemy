@@ -1,0 +1,106 @@
+.flex{
+    display: flex;
+  background-color: #333;
+  color: #fff;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+.center, 
+.space-around, 
+.space-between, 
+.end{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.center.box{
+    width: 50px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.center, .box
+.space-around, .box
+.space-between, .box
+.end,.box{
+    width: 50px;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}
+
+/*align items*/
+
+.align-center, .box, 
+.stretch, .box,
+.flex-end,.box{
+    width: 60px;
+}
+.align-center, 
+.stretch, 
+.flex-end{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+    
+}
+
+.align-center{
+ align-items: center;
+}
+
+.flex-end{
+ align-items: end;
+}
+
+.stretch{
+ align-items: stretch;
+}
+
+.stretch .box{
+    height: auto;
+}
+/* gap */
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 20px;
+}
+
+.gap .box{
+    width: 30%;
+}
